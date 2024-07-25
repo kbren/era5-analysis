@@ -1,0 +1,16 @@
+{
+  "_checkout": "2022.6.3",
+  "_output_dir": "/Users/katiebrennan/development",
+  "_repo_dir": "/Users/katiebrennan/.cookiecutters/cookiecutter-hypermodern-python",
+  "_template": "gh:cjolowicz/cookiecutter-hypermodern-python",
+  "author": "Katie Brennan",
+  "copyright_year": "2024",
+  "development_status": "Development Status :: 1 - Planning",
+  "email": "mary.k.brennan6@gmail.com",
+  "friendly_name": "Era5 Analysis",
+  "github_user": "kbren",
+  "license": "MIT",
+  "package_name": "era5-analysis",
+  "project_name": "era5-analysis",
+  "version": "0.0.0"
+}
