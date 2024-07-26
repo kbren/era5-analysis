@@ -373,13 +373,13 @@ css = ["tinycss2 (>=1.1.0,<1.3)"]
 
 [[package]]
 name = "bokeh"
-version = "3.5.0"
+version = "3.5.1"
 description = "Interactive plots and applications in the browser from Python"
 optional = false
 python-versions = ">=3.10"
 files = [
-    {file = "bokeh-3.5.0-py3-none-any.whl", hash = "sha256:1a1c7d35aa9aba1ae86916e92c1d9f19d706ba1c4929e0ff8647902b32e25689"},
-    {file = "bokeh-3.5.0.tar.gz", hash = "sha256:65e89addbe900c37af25a2052ae174b6d3ba1ef08c91fd5ab6dfd712e184c399"},
+    {file = "bokeh-3.5.1-py3-none-any.whl", hash = "sha256:f8ed2965f03bc1bcd1597bed8d95f3522387beca660a915b11b9311fe6486b54"},
+    {file = "bokeh-3.5.1.tar.gz", hash = "sha256:21dbe86842b24d83c73a1aef2de346a1a7c11c437015d6e9d180a1637e6e8197"},
 ]
 
 [package.dependencies]
