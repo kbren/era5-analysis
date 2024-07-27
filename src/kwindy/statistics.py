@@ -11,6 +11,6 @@ def calc_windspeed(u, v):
 
 def calc_winddirection(u, v):
     """Calculates wind direction from the u and v components."""
-    wind_dir = np.arctan2(-u, -v) * (180 / np.pi)
-    wind_dir = (wind_dir + 360) % 360 
+    wind_dir = 90 - np.rad2deg(np.arctan2(-v, -u))
+    wind_dir = wind_dir % 360 
     return wind_dir
