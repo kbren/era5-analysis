@@ -31,10 +31,10 @@
 
 ## Installation
 
-You can install _Era5 Analysis_ via [pip] from [PyPI]:
+You can install _kwindy_ via [pip] from [PyPI]:
 
 ```console
-$ pip install era5-analysis
+$ pip install kwindy
 ```
 
 ## Usage
