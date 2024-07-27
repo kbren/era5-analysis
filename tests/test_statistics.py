@@ -20,6 +20,6 @@ def test_calc_windspeed(U,V):
         [(1,1,225), (1,-1,315),(-1,-1,45),(-1,1,135)]
 )
 def test_calc_winddirection(U,V,expected_angle):
-    """Test windspeed calculation from u and v components."""
+    """Test winddirection calculation from u and v components."""
     winddirection= kwindy.calc_winddirection(U,V)
     assert winddirection == expected_angle
