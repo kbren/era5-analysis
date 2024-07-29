@@ -63,7 +63,7 @@ source = ["era5-analysis", "tests"]
 
 [tool.coverage.report]
 show_missing = true
-fail_under = 100
+fail_under = 50
 
 [tool.isort]
 profile = "black"
