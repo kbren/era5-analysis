@@ -1,4 +1,4 @@
-# Era5 Analysis
+# Era5 Analysis - Kwindy
 
 [![PyPI](https://img.shields.io/pypi/v/era5-analysis.svg)][pypi_]
 [![Status](https://img.shields.io/pypi/status/era5-analysis.svg)][status]
@@ -12,22 +12,12 @@
 [![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white)][pre-commit]
 [![Black](https://img.shields.io/badge/code%20style-black-000000.svg)][black]
 
-[pypi_]: https://pypi.org/project/era5-analysis/
-[status]: https://pypi.org/project/era5-analysis/
-[python version]: https://pypi.org/project/era5-analysis
-[read the docs]: https://era5-analysis.readthedocs.io/
-[tests]: https://github.com/kbren/era5-analysis/actions?workflow=Tests
-[codecov]: https://app.codecov.io/gh/kbren/era5-analysis
 [pre-commit]: https://github.com/pre-commit/pre-commit
 [black]: https://github.com/psf/black
 
-## Features
+## Overview
 
-- TODO
-
-## Requirements
-
-- TODO
+This repository contains the _kwindy_ package, which is short for "Katie's Windy Package". _kwindy_ contains a small set of functions that can be used for analyzing wind data in the ERA5 Reanalysis dataset available on Google Cloud Storage (https://github.com/google-research/arco-era5). This package was developed for trying to better understand the wind resource in offshore environments for future power generation.
 
 ## Installation
 
@@ -37,19 +27,10 @@ You can install _kwindy_ via [pip] from [PyPI]:
 $ pip install kwindy
 ```
 
-## Usage
-
-Please see the [Command-line Reference] for details.
-
-## Contributing
-
-Contributions are very welcome.
-To learn more, see the [Contributor Guide].
-
 ## License
 
 Distributed under the terms of the [MIT license][license],
-_Era5 Analysis_ is free and open source software.
+_kwindy_ is free and open source software.
 
 ## Issues
 
