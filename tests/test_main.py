@@ -1,8 +1,9 @@
 """Test cases for the __main__ module."""
+
 import pytest
 from click.testing import CliRunner
 
-from era5-analysis import __main__
+from kwindy import __main__
 
 
 @pytest.fixture
