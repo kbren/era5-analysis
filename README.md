@@ -12,7 +12,7 @@
 
 This repository contains the _kwindy_ package, which is short for "Katie's Windy Package". _Kwindy_ contains a small set of functions that can be used for analyzing wind data in the ERA5 Reanalysis dataset available on Google Cloud Storage (https://github.com/google-research/arco-era5). This package was developed for trying to better understand the wind resource in offshore environments for future power generation.
 
-Below shows maps provided by the U.S. Bureau of Ocean Energy and Management (BOEM) where there are present and future lease areas along the U.S. East Coast.
+To date, most of the analysis here focuses on the U.S. East Coast where there is the highest density of offshore wind development in the U.S. Below shows maps provided by the U.S. Bureau of Ocean Energy and Management (BOEM) where there are present and future lease areas along the U.S. East Coast.
 ![alt text](image.png)
 
 ## Installation
