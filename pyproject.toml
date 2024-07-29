@@ -29,6 +29,7 @@ cartopy = "^0.23.0"
 matplotlib = "^3.9.1"
 gcsfs = "^2024.6.1"
 bokeh = "^3.5.0"
+scipy = "^1.14.0"
 
 [tool.poetry.group.notebook.dependencies]
 jupyterlab = "^4.0.2"
