@@ -7,10 +7,10 @@
   "copyright_year": "2024",
   "development_status": "Development Status :: 1 - Planning",
   "email": "mary.k.brennan6@gmail.com",
-  "friendly_name": "Era5 Analysis",
+  "friendly_name": "Katie's Windy Package",
   "github_user": "kbren",
   "license": "MIT",
-  "package_name": "era5-analysis",
+  "package_name": "kwindy",
   "project_name": "era5-analysis",
   "version": "0.0.0"
 }
