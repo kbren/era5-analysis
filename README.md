@@ -10,15 +10,20 @@
 
 This repository contains the _kwindy_ package, which is short for "Katie's Windy Package". _Kwindy_ contains a small set of functions built for analyzing the ERA5 Reanalysis dataset that is available on Google Cloud Storage (https://github.com/google-research/arco-era5). This package was developed for quantifying and analyzing the wind resource in offshore environments.
 
-To date, most of the analysis here focuses on the U.S. East Coast where there is the highest density of offshore wind development in the U.S. Below are maps from the U.S. Bureau of Ocean Energy and Management (BOEM) showing where there are present and future lease areas for offshore wind development along the U.S. East Coast.
-![alt text](image.png)
+To date, most of the analysis here focuses on the U.S. East Coast where there is the highest density of offshore wind development in the U.S. Below are maps from the U.S. Bureau of Ocean Energy and Management (BOEM) showing where there are present and future lease areas for offshore wind development along the U.S. East Coast. ![alt text](BOEM_map.png)
 
 ## Installation
 
-You can install _kwindy_ via [pip] from [PyPI]:
+You can install _kwindy_ via [pip]. First clone the repo:
 
 ```console
-$ pip install kwindy
+$ git clone https://github.com/kbren/era5-analysis.git
+```
+
+Then from the `era5-analysis/` directory run:
+
+```console
+$ pip install .
 ```
 
 ## License
