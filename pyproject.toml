@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "kwindy"
 version = "0.0.0"
-description = "Era5 Analysis"
+description = "Katie's Windy Package"
 authors = ["Katie Brennan <mary.k.brennan6@gmail.com>"]
 license = "MIT"
 readme = "README.md"
@@ -50,20 +50,20 @@ pytest = ">=6.2.5"
 pytest-cov = "^4.1.0"
 ruff = "^0.0.271"
 
-[tool.poetry.scripts]
-era5-analysis = "era5-analysis.__main__:main"
+# [tool.poetry.scripts]
+# era5-analysis = "era5-analysis.__main__:main"
 
-[tool.coverage.paths]
-source = ["src", "*/site-packages"]
-tests = ["tests", "*/tests"]
+# [tool.coverage.paths]
+# source = ["src", "*/site-packages"]
+# tests = ["tests", "*/tests"]
 
-[tool.coverage.run]
-branch = true
-source = ["era5-analysis", "tests"]
+# [tool.coverage.run]
+# branch = true
+# source = ["era5-analysis", "tests"]
 
-[tool.coverage.report]
-show_missing = true
-fail_under = 50
+# [tool.coverage.report]
+# show_missing = true
+# fail_under = 50
 
 [tool.isort]
 profile = "black"
