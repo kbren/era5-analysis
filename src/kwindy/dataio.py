@@ -3,8 +3,8 @@
 import xarray as xr
 
 
-def load_era5_from_cloud(desired_chunks):
-    """Load ERA5 dataset from GCS.
+def open_era5_from_cloud(desired_chunks):
+    """Open ERA5 dataset from GCS.
     Inputs:
         desired_chunks: string or dictionary with desired chunks
 
