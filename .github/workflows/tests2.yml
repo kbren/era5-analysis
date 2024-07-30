@@ -20,4 +20,4 @@ jobs:
           pip install pytest
       - name: Run pytest
         run: |
-          make test
+          pytest
